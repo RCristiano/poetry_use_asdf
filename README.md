@@ -33,8 +33,8 @@ $ poetry env use <python_version>
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/plugin-poetry/graphs/contributors
+[author]:         https://github.com/RCristiano
+[contributors]:   https://github.com/RCristiano/plugin-poetry/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 [poetry-link]:    https://www.python-poetry.org/
 [asdf-link]:      https://asdf-vm.com/
