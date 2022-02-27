@@ -36,7 +36,7 @@ $ poetry env use <python_version>
 [author]:         https://github.com/{{USER}}
 [contributors]:   https://github.com/{{USER}}/plugin-poetry/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
-[poetry-link]:   https://www.python-poetry.org/
-[asdf-link]:     https://asdf-vm.com/
+[poetry-link]:    https://www.python-poetry.org/
+[asdf-link]:      https://asdf-vm.com/
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
