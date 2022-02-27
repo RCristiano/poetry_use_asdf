@@ -3,29 +3,26 @@
 #### poetry
 > A plugin for [Oh My Fish][omf-link].
 
-This plugin wraps [poetry][poetry-link] to provide a convenient interface to manage your python versions installed by [asdf][asdf-link].
-And add completions to the `poetry env use` command to complete with installed python versions.
-
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.0-007EC7.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
 <br/>
 
+This plugin wraps [poetry][poetry-link] to provide a convenient interface to manage your python versions installed by [asdf][asdf-link].
+Add completions to the `poetry env use` command to complete with installed python versions.
 
 ## Install
 
 ```fish
-$ omf install poetry_use_asdf
+omf install poetry_use_asdf
 ```
-
 
 ## Usage
 
 ```fish
-$ poetry env use <python_version>
+poetry env use <python_version>
 ```
-
 
 # License
 
