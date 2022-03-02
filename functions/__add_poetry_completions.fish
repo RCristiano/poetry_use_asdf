@@ -5,6 +5,6 @@ function __add_poetry_completions --description "Adds "poetry" sub-commands comp
 
 
     for i in (seq (count $sub_commands))
-        complete -f -c poetry -n "__fish_seen_subcommand_from env; and not __fish_seen_subcommand_from $sub_commands" -a "info" -d $descs[$i] -a "$sub_commands[$i]"
+        complete -f -c poetry -n "__fish_seen_subcommand_from env; and not __fish_seen_subcommand_from $sub_commands" -a "$sub_commands[$i]" -d $descs[$i]
     end
 end
