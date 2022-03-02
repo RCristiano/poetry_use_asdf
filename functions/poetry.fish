@@ -4,7 +4,7 @@ function poetry --wraps="poetry"
 
     switch "$command"
         case 'env use'
-            set python_path (asdf where python $argv[3])/bin/python
+            set python_path (asdf which python $argv[3])
             if test $status -eq 0
                 command poetry $command $python_path $argv[4..]
             else
