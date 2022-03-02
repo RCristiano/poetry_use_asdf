@@ -15,7 +15,7 @@ Add completions to the `poetry env use` command to complete with installed pytho
 ## Install
 
 ```fish
-omf install poetry_use_asdf
+omf install https://github.com/RCristiano/poetry_use_asdf
 ```
 
 ## Usage
