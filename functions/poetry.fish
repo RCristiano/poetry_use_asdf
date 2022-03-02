@@ -1,9 +1,9 @@
 function poetry --wraps="poetry"
     set command $argv[1..2]
-    set python_versions (asdf list python)
 
     switch "$command"
         case 'env use'
+            set python_versions (asdf list python)
             set python_path (asdf which python $argv[3])
             if test $status -eq 0
                 command poetry $command $python_path $argv[4..]
