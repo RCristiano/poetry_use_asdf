@@ -12,9 +12,6 @@ function poetry --wraps="poetry"
                 echo 'List of installed python versions:' $python_versions
                 return 1
             end
-        case 'shell'
-            command poetry env use (asdf which python) && \
-            command poetry shell
         case '*'
             command poetry $argv
     end
