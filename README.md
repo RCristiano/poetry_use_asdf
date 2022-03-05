@@ -13,6 +13,8 @@ This plugin wraps [poetry][poetry-link] to provide a convenient interface to man
 
 Adds completions to the `poetry env use` command to complete with installed python versions and to `poetry env remove` to complete with env names provided by `poetry env list`.
 
+[![asciicast](https://asciinema.org/a/473898.svg)](https://asciinema.org/a/473898)
+
 ## Install
 
 ```fish
