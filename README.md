@@ -10,7 +10,8 @@
 <br/>
 
 This plugin wraps [poetry][poetry-link] to provide a convenient interface to manage your python versions installed by [asdf][asdf-link].
-Add completions to the `poetry env use` command to complete with installed python versions.
+
+Adds completions to the `poetry env use` command to complete with installed python versions and to `poetry env remove` to complete with env names provided by `poetry env list`.
 
 ## Install
 
